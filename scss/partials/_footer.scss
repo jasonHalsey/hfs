@@ -1,0 +1,108 @@
+.site-footer {
+    position : relative;
+    width    : 100%;
+    /*padding  : 60px 0 100px 0;*/
+    z-index  : 99;
+
+    overflow : hidden;
+}
+
+.site-footer * {
+    /*-webkit-transition : all 0.25s ease-out;*/
+    /*-moz-transition    : all 0.25s ease-out;*/
+    /*transition         : all 0.25s ease-out;*/
+}
+
+.site-footer a:before {
+    z-index : auto;
+}
+
+.site-footer .row {
+    /* position : relative; */
+    /* height   : 100%; */
+}
+
+.site-footer .background {
+    position : absolute;
+    width    : 100%;
+    height   : 100%;
+    top      : 0;
+}
+
+.site-footer .footer-container {
+    line-height : 1;
+    /*font-size: 11px;*/
+    color       : #949494;
+    padding     : 80px 0 40px;
+    text-align  : center;
+}
+
+.site-footer .logo {
+
+}
+
+.site-footer .logo p {
+    font-size  : 15px;
+    margin-top : 20px;
+}
+
+.site-footer .bottom {
+    text-align     : left;
+    font-size      : 10px;
+    /* color: #FFF; */
+    text-transform : uppercase;
+    letter-spacing : 0.1em;
+    margin-top     : 60px;
+    border-top     : 1px solid #333;
+    padding-top    : 36px;
+}
+
+@media only screen and (max-width : 1024px) {
+    .site-footer .bottom {
+        text-align : inherit;
+    }
+}
+
+.site-footer .nav {
+    list-style-type : none;
+    margin-left     : 0;
+    float           : right;
+    font-size       : 10px;
+    line-height     : 1;
+}
+
+@media only screen and (max-width : 1024px) {
+    .site-footer .nav {
+        float : none;
+    }
+}
+
+.site-footer .nav > li {
+    display      : inline-block;
+    margin-right : 15px;
+}
+
+.site-footer .nav > .menu-item > a {
+    /* font-family    : 'lato', sans-serif; */
+    font-size   : 10px;
+    font-weight : 700;
+    /* text-transform : uppercase; */
+
+    color       : inherit;
+    /* letter-spacing : 0.1em; */
+    line-height : 1;
+}
+
+.site-footer .nav > .menu-item > a:hover {
+    color : #777;
+}
+
+.site-footer .text {
+    float : left;
+}
+
+@media only screen and (max-width : 1024px) {
+    .site-footer .text {
+        float : none;
+    }
+}

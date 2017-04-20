@@ -1,0 +1,278 @@
+header.site-header{
+// 	position: relative;
+// 	z-index: 66;
+}
+
+.site-header {
+    position           : fixed;
+    width              : 100%;
+
+    z-index            : 100;
+
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+    overflow           : hidden;
+}
+
+.site-header * {
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+}
+
+.site-header .row {
+    position : relative;
+    height   : 100%;
+}
+
+.site-header .background {
+    position : absolute;
+    width    : 100%;
+    height   : 100%;
+
+    /* border-bottom-width : 3px; */
+    /* border-bottom-style : solid; */
+    /*border-color : #000;*/
+}
+
+.site-header .logo,
+.site-header .mainmenu {
+    position : absolute;
+    bottom   : 0;
+}
+
+/* slide in */
+.js-coll-header-slide {
+    -webkit-transform : translate(0px, -200px) translateZ(0px);
+    transform         : translate(0px, -200px) translateZ(0px)
+}
+
+.site-header.static {
+    position                    : absolute;
+    top                         : 40px;
+    left                        : 0;
+    z-index                     : 10;
+
+    -webkit-backface-visibility : hidden;
+    -webkit-transform           : translateZ(0);
+}
+
+.site-header.mobile {
+    display                     : block;
+    top                         : -800px;
+    height                      : auto;
+    /*-webkit-transition : top 0.4s ease;*/
+    /*-moz-transition    : top 0.4s ease;*/
+    /*-ms-transition     : top 0.4s ease;*/
+    /*-o-transition      : top 0.4s ease;*/
+    /*transition         : top 0.4s ease;*/
+
+    -webkit-transition          : transform 0.2s ease-out;
+    -moz-transition             : transform 0.2s ease-out;
+    -ms-transition              : transform 0.2s ease-out;
+    -o-transition               : transform 0.2s ease-out;
+    transition                  : transform 0.2s ease-out;
+
+    /*-webkit-transition : none;*/
+    /*-moz-transition    : none;*/
+    /*-ms-transition     : none;*/
+    /*-o-transition      : none;*/
+    /*transition         : none;*/
+
+    -webkit-backface-visibility : hidden;
+    -webkit-transform           : translateZ(0);
+}
+
+.site-header.mobile .logo {
+    position : relative;
+    /*width      : 100%;*/
+    /* text-align : center; */
+    top      : 0 !important;
+    left     : 0 !important;
+    height   : 50px;
+}
+
+.site-header.mobile .logo img {
+    max-height : 50px;
+    width      : auto;
+    padding    : 10px;
+}
+
+
+.site-header.mobile #coll-menu-icon {
+    position       : absolute;
+    top            : 0;
+    right          : 0;
+    font-size      : 28px;
+    text-align     : center;
+    display        : table;
+    line-height    : 1;
+    vertical-align : middle;
+    padding        : 10px 16px;
+    cursor         : pointer;
+
+    color          : #999;
+}
+
+.site-header.mobile .mainmenu {
+    position : relative;
+    top      : 0;
+    bottom   : 0;
+    left     : 0;
+    right    : 0;
+
+    overflow : hidden;
+}
+
+.site-header.mobile .sf-menu .mobnav-subarrow {
+    position     : absolute;
+    top          : 0px;
+    right        : 0px;
+    color        : #ff0000;
+    cursor       : pointer;
+
+    padding-left : 40%;
+}
+
+.site-header.mobile .sf-menu .mobnav-subarrow > i {
+    display        : table-cell;
+    width          : 24px;
+    height         : 20px;
+    text-align     : center;
+    vertical-align : middle;
+    cursor         : pointer;
+    font-size      : 20px;
+
+}
+
+.site-header.mobile .sf-menu {
+    width          : 100% !important;
+    display        : block;
+
+    margin-top     : -1000px;
+
+    margin-bottom  : 0px;
+    padding-bottom : 1em;
+
+}
+
+.site-header.mobile .sf-menu.xactive {
+    margin-top : 0px !important;
+}
+
+.site-header.mobile .sf-menu li {
+    float      : none !important;
+    display    : block !important;
+    width      : 100% !important;
+    border-top : 1px solid #CFCFCF;
+}
+
+.site-header.mobile .sf-menu li a {
+    float          : none !important;
+    font-family    : 'Lato', sans-serif;
+    font-size      : 13px;
+    font-weight    : 900;
+    letter-spacing : 0.1em;
+    padding        : 1em;
+    cursor         : pointer;
+}
+
+.site-header.mobile .sf-menu ul {
+    position       : static !important;
+    display        : none !important;
+    padding-bottom : 0;
+}
+
+.site-header.mobile .xpopdrop ul {
+    display : block !important;
+}
+
+.site-header.mobile .sf-menu ul > li > a {
+    margin-left : 20px;
+}
+
+.site-header.mobile .sf-menu ul > li > a:before {
+    content     : "— ";
+    position    : absolute;
+    top         : 0.85em;
+    left        : -7px;
+    font-family : arial, sans-serif;
+    color       : red;
+}
+
+
+
+
+  // Media queries
+
+@media only screen and (min-width : 1025px) {
+    .site-header.skrollable {
+        border-bottom : 1px solid #dedede;
+    }
+
+    .coll-single.lightbox {
+        margin-top    : 2em;
+        margin-bottom : 2em;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    /*body.coll-mobile.coll-parallax {*/
+    /*position : fixed;*/
+    /*top      : 0;*/
+    /*left     : 0;*/
+    /*right    : 0;*/
+    /*}*/
+    .site-header {
+        display : none;
+    }
+
+    .site-header.mobile {
+        top : 0px;
+    }
+
+    .mfp-close-btn-in .mfp-close {
+        position : fixed;
+
+        right    : 0;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .coll-section-divider .text {
+        display : none;
+    }
+
+    .coll-section-divider .line {
+        float : none;
+    }
+
+    .coll-single .asset-wrapper .item .caption {
+
+        float      : none;
+        width      : 100%;
+        display    : block;
+
+        margin     : 0;
+        text-align : left;
+    }
+
+    .coll-post-info .caption {
+        position   : relative;
+        width      : 100%;
+        display    : block;
+
+        margin     : 0;
+        text-align : left;
+
+        left       : 0;
+    }
+
+    .coll-single .asset-wrapper .item .caption:before,
+    .coll-post-info .caption:before {
+        right : auto;
+
+    }
+}
+

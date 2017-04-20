@@ -1,0 +1,647 @@
+.coll-hide-content {
+    position   : absolute;
+    visibility : hidden;
+}
+
+.coll-hide-title {
+    position   : absolute;
+    visibility : hidden;
+}
+
+.coll-page-section .entry-title {
+    text-align     : center;
+    padding-bottom : 20px;
+    margin-bottom  : 50px;
+
+}
+
+.coll-page-section .entry-title .subtitle {
+    font-size   : 24px;
+    font-weight : 300;
+    line-height : 1.3em;
+
+}
+
+.coll-show {
+    display : block;
+}
+
+.coll-hide {
+    display : none;
+}
+
+.coll-section-divider {
+    position       : relative;
+    display        : block;
+    width          : 100%;
+    margin-bottom  : 40px;
+    padding-bottom : 10px;
+}
+
+.coll-section-divider > span {
+    display : block;
+    float   : left;
+}
+
+.coll-section-divider > span.text {
+    font-family    : 'lato', sans-serif;
+    font-size      : 13px;
+    font-weight    : 900;
+    text-transform : uppercase;
+    letter-spacing : 0.1em;
+    color          : #000;
+}
+
+.coll-section-divider > span.text > a {
+    color : #000;
+}
+
+.coll-section-divider > span.line > span.color {
+    display          : block;
+    background-color : #000;
+    height           : 1px;
+    width            : 100%;
+    margin-top       : .6em;
+}
+
+.coll-clear:after {
+    content : "";
+    clear   : both;
+    display : table;
+}
+.coll-single.wrapper.common {
+    /*padding-top : 140px;*/
+}
+
+.coll-parallax.coll-single.wrapper.common {
+    /*padding-top : 0px;*/
+}
+
+.coll-parallax.coll-single section.background {
+    /*height: 600px;*/
+}
+
+.coll-single section.background .color-overlay {
+    position         : absolute;
+    top              : 0px;
+    width            : 100%;
+    height           : 100%;
+    background-color : #000;
+    opacity          : 0.3;
+}
+
+.coll-single section.title-container {
+    padding-top    : 140px;
+    padding-bottom : 50px;
+}
+
+.coll-parallax.coll-single section.title-container {
+    position    : absolute;
+    width       : 100%;
+    bottom      : 0px;
+
+    padding-top : 0px;
+
+}
+
+.single .coll-single .title-divider {
+    display : none;
+}
+
+.coll-single .title-wrapper .title-text {
+    font-family   : 'Lato', sans-serif;
+    font-weight   : 900;
+    line-height   : 1em;
+    margin-bottom : 10px;
+}
+
+.coll-parallax.coll-single .title-wrapper .title-text {
+    color : #fff;
+}
+
+.coll-single .title-wrapper .subtitle-text {
+    font-family : 'Lato', sans-serif;
+    font-weight : 300;
+    line-height : 1em;
+
+}
+
+.coll-parallax.coll-single .title-wrapper .subtitle-text {
+    color : rgba(255, 255, 255, 0.8);
+}
+
+.coll-single .title-wrapper .subtitle-text > p {
+    margin-bottom : 30px;
+    line-height   : 1em;
+    /* font-weight: 400; */
+}
+
+.coll-single .title-wrapper .icons {
+    list-style-type : none;
+    margin-bottom   : 0;
+
+    margin-left     : 0;
+}
+
+.coll-single .title-wrapper .icons > li {
+    display : inline-block;
+}
+
+.coll-single .title-wrapper .icons .link {
+    display            : table-cell;
+    width              : 36px;
+    height             : 36px;
+    border-radius      : 18px;
+    border             : 1px solid #000000;
+    color              : #000000;
+    text-align         : center;
+    vertical-align     : middle;
+
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+}
+
+.coll-parallax.coll-single .title-wrapper .icons .link {
+
+    border-color : #FFF;
+    color        : #FFF;
+
+}
+
+.coll-single .title-wrapper .icons .link:hover {
+    border-color     : #7ee08e;
+    color            : #FFF;
+    background-color : #7ee08e;
+}
+
+.coll-single .copy-container {
+    margin-top    : 44px;
+    margin-bottom : 70px;
+}
+
+.coll-single .content-wrapper .info {
+    position : relative;
+}
+
+.coll-single .content-wrapper .info .list {
+    float           : left;
+    list-style-type : none;
+    margin-left     : 0;
+    margin-bottom   : 50px;
+}
+
+.coll-single .content-wrapper .info .list > li > .title {
+    display : inline-block;
+    margin  : 0px 10px 0px 0px;
+}
+
+.coll-single .content-wrapper .info .list > li > .text {
+    display : inline-block;
+    margin  : 0px 0px 0px 0px;
+}
+
+.coll-single .content-wrapper .info .proj {
+    float          : right;
+    font-size      : 13px;
+    font-weight    : 900;
+    letter-spacing : 0.2em;
+    margin-bottom  : 50px;
+
+    /*color          : #000000;*/
+    /*border-color   : #000000;*/
+}
+
+.coll-single .content-wrapper .info .proj:hover {
+    /*background-color : #7ee08e;*/
+    /*border-color : #7ee08e;*/
+    /*color        : #7ee08e;*/
+
+}
+
+.coll-single .coll-section-divider.content-divider {
+    margin-top : 60px;
+}
+
+.coll-single .asset-wrapper {
+    margin-bottom : 70px;
+}
+
+.coll-single .asset-wrapper .item {
+    margin-bottom : 20px;
+    text-align    : center;
+}
+
+.coll-single .asset-wrapper .item .caption:before {
+    content          : "";
+    position         : absolute;
+    width            : 15px;
+    height           : 1px;
+    background-color : #000000;
+    right            : 84%;
+}
+
+.coll-single .asset-wrapper .item .caption {
+    float       : left;
+    width       : 18%;
+    margin-left : -20%;
+    text-align  : right;
+}
+
+.coll-single.lightbox .asset-wrapper .item .caption:before {
+    /* left : -30px; */
+}
+
+.coll-single .asset-wrapper .item .caption > .text {
+    padding        : 5px 0px;
+    margin-bottom  : 0px;
+    font-size      : 13px;
+    text-transform : uppercase;
+    letter-spacing : 0.1em;
+}
+
+.coll-single .navigation-container {
+    margin-bottom : 70px;
+}
+
+.coll-single .navigation-container:after {
+    content : "";
+    clear   : both;
+    display : table;
+}
+
+.coll-single .navigation-container .next {
+    text-align : right;
+    height     : 6em;
+}
+
+.coll-single .navigation-container .previous {
+    text-align : left;
+    height     : 6em;
+}
+
+.coll-single .navigation-container .arrow {
+    display  : block;
+    position : relative;
+}
+
+.coll-single .navigation-container .previous .arrow > div {
+    position : absolute;
+}
+
+.coll-single .navigation-container .next .arrow > div {
+    position : absolute;
+    right    : 0;
+}
+
+.coll-single .navigation-container .previous .arrow > div.info {
+    position     : absolute;
+    width        : 100%;
+    padding-left : 4em;
+}
+
+.coll-single .navigation-container .next .arrow > div.info {
+    position      : absolute;
+    width         : 100%;
+    padding-right : 4em;
+}
+
+.coll-single .navigation-container .arrow > div > label {
+    line-height        : 1em;
+    margin             : 2px 0 2px 0;
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+}
+
+.coll-single .navigation-container .arrow > div > .title-text {
+    width              : 100%;
+    overflow-wrap      : break-word;
+    line-height        : 1em;
+    margin             : 0px;
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+}
+
+.coll-single .navigation-container .arrow:hover > div.info > label,
+.coll-single .navigation-container .arrow:hover > div.info > .title-text {
+    color : #7ee08e;
+}
+
+.coll-single .navigation-container .arrow .fa {
+    display            : table-cell;
+    font-size          : 1.5em;
+    width              : 2em;
+    height             : 2em;
+    border-radius      : 1em;
+    border             : 1px solid #000;
+    color              : #000;
+    text-align         : center;
+    vertical-align     : middle;
+
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+}
+
+.coll-single .navigation-container .arrow:hover .fa {
+
+    color            : #fff;
+    background-color : #7ee08e;
+    border           : 1px solid #7ee08e;
+}
+
+/* single post */
+.coll-single.coll-post .coll-section-divider a {
+    /* text-decoration : underline; */
+    color : #000;
+}
+
+.coll-single.coll-post .coll-section-divider a:hover {
+    /* color : #999999; */
+}
+
+.coll-single.coll-post .post-meta {
+    display : table;
+    width   : 100%;
+    /* margin-bottom: 2rem; */
+}
+
+.coll-single.coll-post .post-meta .author-meta {
+    display : table-cell;
+}
+
+.coll-single.coll-post .post-meta .author-meta .wrapper > div {
+    display        : table-cell;
+    vertical-align : middle;
+}
+
+.coll-single.coll-post .post-meta .author-meta .wrapper > .image {
+    /*border-radius : 50%;*/
+    /*padding       : 3px;*/
+    /*border        : 1px solid #000000;*/
+}
+
+.coll-single.coll-post.coll-parallax .post-meta .author-meta .wrapper > .image {
+    border-color : #E4E4E4;
+}
+
+.coll-single.coll-post .post-meta .author-meta .wrapper > .image > img {
+    border-radius : 50%;
+    width         : 45px;
+}
+
+.coll-single.coll-post .post-meta .author-meta .wrapper > .text {
+    color        : #000000;
+    padding-left : 15px;
+}
+
+.coll-single.coll-post.coll-parallax .post-meta .author-meta .wrapper > .text {
+    color : #FFFFFF;
+}
+
+.coll-single.coll-post .post-meta .icons {
+    display        : table-cell;
+    vertical-align : middle;
+    float          : right;
+}
+
+.coll-single.coll-post .leave-comment {
+    display       : none;
+    margin-bottom : 50px;
+    /*color         : #000;*/
+    /*border-color  : #000;*/
+}
+
+.coll-single.coll-post .leave-comment:hover {
+    /*border-color : #7EE08E;*/
+    /*color        : #7EE08E;*/
+}
+
+/* categories*/
+.coll-post-info {
+    padding-top : 20px;
+}
+
+.coll-post-info .categories,
+.coll-post-info .tags {
+    position      : relative;
+    margin-bottom : 30px;
+}
+
+.coll-post-info .caption {
+
+    position       : absolute;
+    top            : 0px;
+    left           : -20%;
+    width          : 18%;
+    text-align     : right;
+    padding        : 5px 0px;
+    text-transform : uppercase;
+    font-size      : 13px;
+}
+
+.coll-post-info .caption:before {
+    content          : "";
+    position         : absolute;
+    width            : 15px;
+    height           : 1px;
+    background-color : #000;
+    right            : 0;
+    top              : 3px;
+}
+
+.coll-post-info a {
+    font-size        : 12px !important;
+    padding          : .2em .5em;
+    color            : #B0B0B0;
+    background-color : #f4f4f4;
+    margin           : 3px 1px;
+    display          : inline-block;
+    text-transform   : uppercase;
+}
+
+.coll-post-info a:before {
+    content : none
+}
+
+.coll-post-info .categories a {
+    border-bottom : 2px solid;
+}
+
+.coll-post-info .categories a:hover {
+    border-bottom-color : red;
+}
+
+.coll-post-info .tags a:hover {
+    color            : #fff;
+    background-color : #000;
+}
+
+/* pagination */
+.coll-single .coll-pagination {
+    text-align      : center;
+    font-family     : 'lato', helvetica, arial;
+    font-size       : 13px;
+    font-weight     : 900;
+
+    list-style-type : none;
+    margin          : 10px 0;
+}
+
+.coll-single .coll-pagination li {
+    display : inline-block;
+    margin  : 0 10px;
+}
+
+.coll-single .coll-pagination a {
+    font-weight : 400;
+}
+
+.coll-single .coll-pagination a:before {
+    content : none;
+}
+
+.coll-single .coll-pagination a:hover {
+    font-weight : 700;
+}
+
+/* lightbox*/
+.coll-single.lightbox {
+    position         : relative;
+    /*top              : 2em;*/
+    /* max-width        : 1000px; */
+    background-color : #FFF;
+    /* margin           : 0 auto; */
+    border-top-width : 3px;
+    border-top-style : solid;
+}
+
+.coll-single.lightbox:after {
+    content : "";
+    clear   : both;
+    display : table;
+}
+
+.coll-single.lightbox .coll-section-divider {
+    margin : 20px 0px 30px 0px;
+}
+
+.coll-single.lightbox .coll-section-divider.title-divider {
+    padding-top : 50px;
+}
+
+.coll-single.lightbox.coll-post .coll-section-divider.content-divider .text {
+    opacity : 0;
+}
+
+.coll-single.lightbox .title-wrapper {
+    /* padding-top    : 50px; */
+    padding-bottom : 0px;
+}
+
+.coll-single.lightbox .title-wrapper .title-text {
+    color : inherit;
+}
+
+.coll-single.lightbox .title-wrapper .subtitle-text {
+
+    color : rgba(0, 0, 0, 0.4);
+}
+
+.coll-single.lightbox .title-wrapper .subtitle-text > p {
+    margin-bottom : 20px;
+}
+
+.coll-single.lightbox section.copy-container {
+    margin : 0;
+}
+
+.coll-single.lightbox .asset-container .item .caption {
+    float       : left;
+    width       : 170px;
+    margin-left : -200px;
+    text-align  : right;
+}
+
+.coll-single.lightbox .asset-container .item .caption:before {
+    left : -30px;
+}
+
+.coll-single.coll-post.lightbox .leave-comment {
+    display : inline-block;
+}
+
+.mfp-wrap {
+    /*-webkit-overflow-scrolling : touch;*/
+}
+
+.mfp-preloader {
+    margin            : auto;
+    font-size         : 10px;
+
+    /* position: relative; */
+    text-indent       : -9999em;
+    border-top        : 1.1em solid rgba(255, 255, 255, 0.2);
+    border-right      : 1.1em solid rgba(255, 255, 255, 0.2);
+    border-bottom     : 1.1em solid rgba(255, 255, 255, 0.2);
+    border-left       : 1.1em solid #ffffff;
+    -webkit-animation : load8 1.1s infinite linear;
+    animation         : load8 1.1s infinite linear;
+}
+
+.mfp-preloader,
+.mfp-preloader {
+    border-radius : 50%;
+    width         : 5em;
+    height        : 5em;
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform : rotate(0deg);
+        transform         : rotate(0deg);
+    }
+    100% {
+        -webkit-transform : rotate(360deg);
+        transform         : rotate(360deg);
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform : rotate(0deg);
+        transform         : rotate(0deg);
+    }
+    100% {
+        -webkit-transform : rotate(360deg);
+        transform         : rotate(360deg);
+    }
+}
+
+.coll-mobile .mfp-container {
+    padding                    : 0;
+    -webkit-overflow-scrolling : touch;
+    position                   : fixed;
+    overflow-x                 : hidden;
+    overflow-y                 : auto;
+}
+
+button.mfp-close {
+
+    z-index : 9999;
+    color   : #000;
+}
+
+.coll-mobile button.mfp-close {
+    overflow : auto;
+    position : fixed;
+    top      : 0;
+    right    : 0;
+}
+
+button.mfp-close:hover {
+    color            : #fff;
+    background-color : #000;
+}
