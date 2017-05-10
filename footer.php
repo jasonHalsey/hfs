@@ -32,7 +32,7 @@ $text = ot_get_option('coll_footer_text');
                     'fallback_cb' => '', // name of default function from step 2
                 ));
                 ?>
-                <span class="text">&copy; <?php echo date("Y"); ?>&nbsp;<?php echo do_shortcode($text); ?></span>
+               
             </div>
         </div>
     </div>

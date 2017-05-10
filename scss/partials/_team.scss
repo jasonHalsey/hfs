@@ -1,0 +1,35 @@
+/*-----------------------------------------------------------------------------------*/
+/*	TEAM
+/*-----------------------------------------------------------------------------------*/
+
+.coll-team .hentry {
+    text-align    : center;
+    margin-bottom : 1.5rem;
+}
+.coll-team .hentry.columns:last-child {
+    float : left;
+}
+.coll-team .hentry .coll-image-wrapper {
+    display : inline-block;
+    margin  : 10px 10px 16px 10px;
+}
+.coll-team .hentry .coll-image-wrapper.round {
+    border-radius : 50%;
+
+}
+.coll-team .hentry .coll-image-wrapper.round > .image {
+    border-radius : 50%;
+}
+.coll-team .hentry .title {
+
+}
+.coll-team .hentry .title > .text {
+
+}
+.coll-team .hentry .title > .text > .coll-first-word {
+
+}
+.coll-team .coll-social-icon {
+    float   : none;
+    display : inline-block;
+}
