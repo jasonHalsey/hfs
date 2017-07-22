@@ -287,6 +287,39 @@ body.home #intro-video .coll-text > span.text p:last-child {
   margin-top: 0;
 }
 
+.coll-flexslider .flex-caption {
+  position: absolute;
+  bottom: 25%;
+  left: 4%;
+  max-width: 50%;
+  z-index: 10;
+}
+@media only screen and (max-width: 1530px) {
+  .coll-flexslider .flex-caption {
+    max-width: 46%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+.coll-flexslider .flex-caption .caption {
+  background-color: transparent;
+  padding: 10px 30px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.0em;
+  text-align: left;
+  display: inline-block;
+  text-shadow: 1px 1px 2px black;
+  margin: 0;
+}
+
+.coll-flexslider .flex-caption .caption span {
+  font-weight: 600;
+  font-size: 3.0em;
+}
+
 .coll-hide-content {
   position: absolute;
   visibility: hidden;
@@ -944,6 +977,47 @@ button.mfp-close:hover {
 .coll-team .coll-social-icon {
   float: none;
   display: inline-block;
+}
+
+h2.logo-text {
+  font-weight: 400;
+  color: #0a0a0a;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  display: none;
+}
+
+.logo_main {
+  padding-top: 100px;
+}
+
+.clogo_container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.clogo_container a {
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 300px;
+  margin: 0 0.5em 1.25em;
+}
+.clogo_container a img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* msie */
+  background-color: #000;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  width: 100%;
+  height: auto;
+}
+.clogo_container a:hover img {
+  opacity: 1;
 }
 
 .site-footer {

@@ -1,0 +1,46 @@
+
+h2.logo-text{
+	font-weight:400;
+	color:#0a0a0a;
+	font-size: 2.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	display:none;
+}
+
+
+.logo_main{
+	padding-top:100px;
+}
+#client_logos{
+
+}
+.clogo_container{
+	max-width: 1600px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+    justify-content:space-around;
+	a{	
+		flex-grow:1;
+            flex-shrink: 1;
+            max-width: 300px;
+            margin: 0 0.5em 1.25em;
+		img{
+			opacity: 0.4;
+		    filter: alpha(opacity=40); /* msie */
+		    background-color: #000;
+		    transition: opacity .25s ease-in-out;
+		   -moz-transition: opacity .25s ease-in-out;
+		   -webkit-transition: opacity .25s ease-in-out;
+		   width:100%;
+		   height: auto;
+		}
+		&:hover{
+			img{
+				opacity:1;
+			}
+		}
+	}
+}
+
