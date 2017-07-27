@@ -270,9 +270,12 @@ img.logo-img {
   padding-top: 4%;
 }
 .logo_box img {
-  max-width: 80%;
+  max-width: 100%;
 }
 
+body.home #intro-video .main_title {
+  margin-left: 0;
+}
 body.home #intro-video .coll-text > span.text p:nth-child(2n) {
   margin-bottom: 0;
 }
@@ -318,6 +321,13 @@ body.home #intro-video .coll-text > span.text p:last-child {
 .coll-flexslider .flex-caption .caption span {
   font-weight: 600;
   font-size: 3.0em;
+}
+
+#menu-case_study_menu {
+  list-style-type: none;
+  margin-top: 1.0em;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 .coll-hide-content {
@@ -532,7 +542,7 @@ body.home #intro-video .coll-text > span.text p:last-child {
 }
 
 .coll-single .coll-section-divider.content-divider {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .coll-single .asset-wrapper {

@@ -23,11 +23,14 @@ h2.title{
 .logo_box {
   @include vertical-align();
   padding-top:4%;
-  img{max-width: 80%}
+  img{max-width: 100%}
 }
 
 body.home{
 	#intro-video{
+		.main_title{
+			margin-left: 0;
+		}
 		.coll-text > span.text {
 		    p{
 		    	&:nth-child(2n) {
